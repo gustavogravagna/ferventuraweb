@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ferventuraweb/static/css/main.00c1ed2a.chunk.css",
+    "main.js": "/ferventuraweb/static/js/main.1573bf0b.chunk.js",
+    "main.js.map": "/ferventuraweb/static/js/main.1573bf0b.chunk.js.map",
+    "runtime-main.js": "/ferventuraweb/static/js/runtime-main.1d558aeb.js",
+    "runtime-main.js.map": "/ferventuraweb/static/js/runtime-main.1d558aeb.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/ferventuraweb/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.aa6cbb18.chunk.js": "/ferventuraweb/static/js/2.aa6cbb18.chunk.js",
+    "static/js/2.aa6cbb18.chunk.js.map": "/ferventuraweb/static/js/2.aa6cbb18.chunk.js.map",
+    "index.html": "/ferventuraweb/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/ferventuraweb/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.00c1ed2a.chunk.css.map": "/ferventuraweb/static/css/main.00c1ed2a.chunk.css.map",
+    "static/js/2.aa6cbb18.chunk.js.LICENSE.txt": "/ferventuraweb/static/js/2.aa6cbb18.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/ferventuraweb/static/media/fvc.c44aa3d8.png",
+    "static/media/HireMe.css": "/ferventuraweb/static/media/geometric.3e18c365.jpg",
+    "static/media/Skills.css": "/ferventuraweb/static/media/project.0b7dcd11.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d558aeb.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.aa6cbb18.chunk.js",
+    "static/css/main.00c1ed2a.chunk.css",
+    "static/js/main.1573bf0b.chunk.js"
+  ]
+}
