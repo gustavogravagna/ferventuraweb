@@ -2,7 +2,7 @@
   "name": "portfolio_parallax",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://FerVenc.github.io/ferventuraweb",
+  "homepage": "http://ferventuraweb.art",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -21,7 +21,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'ferventuraweb.art' > ./build/CNAME",
+    "predeploy": "npm run build && echo ferventuraweb.art > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
