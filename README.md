@@ -1,5 +1,4 @@
-### Hi there 👋, I´m Fernando Ventura
-#### frontend developer
+
 ![frontend developer](https://media-exp1.licdn.com/dms/image/C4D16AQEJl_q6Q9mYUA/profile-displaybackgroundimage-shrink_200_800/0/1626282635939?e=1631750400&v=beta&t=NlTNL2E8G48_T1KqACLXW30GrmbmOQeaI98AxyEe_lg)
 
 Focusing on improving the ride experience base to keep coding new ideas.
