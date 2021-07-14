@@ -24,7 +24,7 @@ const HireMe = () => {
 
             {/* HireMe General Info */}
             <div className='hireme_container' data-aos='fade-up'>
-                <h2 className='hireme_tittle'>Do you have any project in mind?</h2>
+                <h2 className='hireme_tittle'>Do you have a project in mind?</h2>
                 <hr className='hireme_tittle_line' />
                 <Link to='contact_container'
                     className='hireme_button'

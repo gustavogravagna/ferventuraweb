@@ -31,7 +31,7 @@ const Home = () => {
           style={{ transform: `translateY(${offset * 0.8}px )` }} />
 
         <h2 className='header_text' style={{ transform: `translateY(${offset * 0.4}px )` }} >
-          Hello!, Welcome to my Space</h2>
+          Hello! Welcome to my Space</h2>
 
         <img src='images/Planet2.png' alt='' className='planet2'
           style={{ transform: `translateY(${offset * 0.5}px )` }} />
