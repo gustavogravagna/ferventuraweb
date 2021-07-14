@@ -1,0 +1,116 @@
+/*===== Bottom Fade Effect =====*/
+@keyframes BtmEffect{
+    from{
+        transform: translateY(30px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.BtmEffect{
+    animation-name: BtmEffect;
+}
+
+/*===== Left Fade Effect =====*/
+@keyframes LeftEffect{
+    from{
+        transform: translateX(30px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.LeftEffect{
+    animation-name: LeftEffect;
+}
+
+/*===== Right Fade Effect =====*/
+@keyframes RightEffect{
+    from{
+        transform: translateX(-30px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.RightEffect{
+    animation-name: RightEffect;
+}
+
+/* _**********__SKILLS BUTTONS__**********_ */
+
+/*===== SKILLS: Bottom Fade Effect =====*/
+@keyframes SkillsBtmEffect{
+    from{
+        transform: translateY(15px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.SkillsBtmEffect{
+    animation-name: SkillsBtmEffect;
+}
+
+/*===== SKILLS: Left Fade Effect =====*/
+@keyframes SkillsLeftEffect{
+    from{
+        transform: translateX(-15px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.SkillsLeftEffect{
+    animation-name: SkillsLeftEffect;
+}
+
+/*===== SKILLS: Right Fade Effect =====*/
+@keyframes SkillsRightEffect{
+    from{
+        transform: translateX(15px);
+        opacity: 0.1;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.SkillsRightEffect{
+    animation-name: SkillsRightEffect;
+}
+
+/*===== Skills Center Fade Effect =====*/
+@keyframes SkillsCenterEffect{
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.SkillsCenterEffect{
+    animation-name: SkillsCenterEffect;
+}

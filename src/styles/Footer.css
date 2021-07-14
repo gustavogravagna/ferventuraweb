@@ -1,0 +1,65 @@
+/* General Variables */
+@import url('Variables.css');
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    height: 180px;
+    width: 100%;
+    color: #fff;
+    background-color: var(--color1);
+    overflow: hidden;
+}
+
+.footer_text{
+    font-family: 'orbitron', sans-serif;
+    font-size: .8rem;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.footer_icon_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.footer_icon_container, a{
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin: 15px 10px;
+    padding: 5px;
+}
+
+.footer_social{
+    height: 30px;
+    width: 30px;
+    transition: 200ms ease;
+    filter: invert(1);
+}
+
+.footer_social:hover{
+    transform: translateY(-1.5px);
+    cursor: pointer;
+}
+
+.footer_cr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: .9rem;
+    width: 300px;
+    z-index: 10;
+}
+
+.footer_cr_name{
+    color: var(--color4);
+}
+

@@ -1,0 +1,310 @@
+/* General Variables */
+@import url('Variables.css');
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    min-height: 80vh;
+    width: 100%;
+    background-color: var(--color2);
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    width: 80%;
+}
+
+.about_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    margin: 40px;
+}
+
+.about_tittle{
+    text-align: left;
+    font-size: 4rem;
+    font-family: 'poppins';
+    color: var(--color3);
+    margin: 0px 10px;
+}
+
+.about_tittle_line{
+    height: 4px;
+    width: 100%;
+    background-color: var(--color1);
+    outline: none;
+    border: none;
+}
+
+.about_text02{
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    margin: 10px;
+    color: var(--color4);
+}
+
+.about_text01{
+    font-size: 2rem;
+    font-family: 'poppins';
+    margin: 10px;
+    color: var(--color4);
+}
+
+.about_download_link{
+    display: block;
+    background-color: var(--color1);
+    color: var(--color5);
+    text-align: center;
+    margin: 20px 0px;
+    height: 55px;
+    width: 200px;
+    line-height: 40px;
+    letter-spacing: 1.6px;
+    font-family: 'poppins';
+    text-decoration: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: 3px solid var(--color1);
+    transition: all 200ms ease;
+}
+
+.about_download_link:hover{
+    background-color: var(--color5);
+    color: #001d3d;
+}
+
+.about_photo{
+    display: flex;
+    height: 800px;
+    width: 800px;
+    background-image: url('./fvc.png');
+    background-size: cover;
+}
+
+.gs_reveal {
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+  }
+
+/* REPONSIVE - MEDIA QUERY */
+
+@media screen and (max-width: 1830px){
+
+    .about{
+        width: 90%;
+    }
+
+    .about_info{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1535px){
+
+    .about{
+        width: 90%;
+    }
+
+    .about_info{
+        width: 400px;
+    }
+
+    .about_tittle{
+        font-size: 3rem;
+    }
+    
+    .about_tittle_line{
+        height: 4px;
+        width: 70%;
+    }
+    
+    .about_text02{
+        font-size: 1rem;
+    }
+    
+    .about_text01{
+        font-size: 1.5rem;
+    }
+
+    .about_photo{
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 1425px){
+
+    .about_info{
+        width: 33%;
+    }
+
+    .about_photo{
+        width: 60%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 1315px){
+
+    .about_info{
+        width: 30%;
+    }
+
+    .about_photo{
+        width: 63%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 1280px){
+
+    .about{
+        width: 90%;
+    }
+
+    .about_info{
+        width: 30%;
+        margin: 5px;
+    }
+
+    .about_tittle{
+        font-size: 2rem;
+    }
+    
+    .about_tittle_line{
+        height: 4px;
+        width: 50%;
+    }
+    
+    .about_text02{
+        font-size: .9rem;
+    }
+    
+    .about_text01{
+        font-size: 1.2rem;
+    }
+
+
+    .about_photo{
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 1080px){
+
+    .about{
+        width: 80%;
+    }
+
+    .about_info{
+        width: 100%;
+    }
+
+    .about_tittle{
+        font-size: 3rem;
+    }
+    
+    .about_text02{
+        font-size: 1.1rem;
+    }
+    
+    .about_text01{
+        font-size: 1.5rem;
+    }
+
+    .about_photo{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 870px){
+    .about_photo{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width: 650px){
+
+    .about{
+        width: 100%;
+    }
+
+    .about_info{
+        padding: 0px 30px;
+    }
+
+    .about_photo{
+        height: 60vh;
+    }
+
+    .about_download_link{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px){
+
+    .about_tittle{
+        font-size: 3rem;
+    }
+    
+    .about_text02{
+        font-size: 1.1rem;
+    }
+    
+    .about_text01{
+        font-size: 1.5rem;
+    }
+
+    .about_photo{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .about_tittle{
+        font-size: 2rem;
+    }
+
+    .about_text02{
+        font-size: 1rem;
+    }
+    
+    .about_text01{
+        font-size: 1.4rem;
+    }
+
+    .about_photo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .about_photo{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .about_photo{
+        height: 30vh;
+    }
+}
