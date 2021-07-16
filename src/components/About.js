@@ -31,7 +31,7 @@ const About = () => {
                     <p className='about_text01'>I´m Fernando Ventura Front End Developer from México</p>
                     <p className='about_text02'>Using the most up-to-date technology, I turn ideas into websites and applications with an elegant design and a better user experience.
                         When I'm not coding I'm learning to keep improving my work day by day.</p>
-                    <a href='https://drive.google.com/uc?export=download&id=17lgvw6H8tetiexVNRKJ2EQFM2Lc9z5rv' className='about_download_link' >Download CV</a>
+                    <a href='https://drive.google.com/uc?export=download&id=16_Txzot8dMHxF13sJSiqJ0jUe0cqMqNi' className='about_download_link' >Download CV</a>
                 </div>
 
                 {/* About Photo: */}
