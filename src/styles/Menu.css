@@ -92,10 +92,9 @@
         align-items: center;
         top: 0px;
         left: 0;
-        width: 35%;
+        width: 70%;
         height: 100vh;
         background: var(--color1) ;
-        border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         transform: translateX(0%);
         transition: all 500ms ease-in-out;
@@ -109,10 +108,9 @@
         align-items: center;
         top: 0px;
         left: 0;
-        width: 35%;
+        width: 50%;
         height: 100vh;
         background: var(--color1) ;
-        border-radius: 10px 10px 10px 10px;
         overflow: hidden;
         transform: translateX(-100%);
         transition: all 500ms ease-in-out;
