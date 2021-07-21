@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.79e14c1c.chunk.css",
+    "main.css": "/static/css/main.29ac7be6.chunk.css",
     "main.js": "/static/js/main.432f58f8.chunk.js",
     "main.js.map": "/static/js/main.432f58f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.db2c401e.js",
@@ -10,7 +10,7 @@
     "static/js/2.aa6cbb18.chunk.js.map": "/static/js/2.aa6cbb18.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.79e14c1c.chunk.css.map": "/static/css/main.79e14c1c.chunk.css.map",
+    "static/css/main.29ac7be6.chunk.css.map": "/static/css/main.29ac7be6.chunk.css.map",
     "static/js/2.aa6cbb18.chunk.js.LICENSE.txt": "/static/js/2.aa6cbb18.chunk.js.LICENSE.txt",
     "static/media/About.css": "/static/media/fvc.c44aa3d8.png",
     "static/media/HireMe.css": "/static/media/geometric.3e18c365.jpg",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.db2c401e.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.aa6cbb18.chunk.js",
-    "static/css/main.79e14c1c.chunk.css",
+    "static/css/main.29ac7be6.chunk.css",
     "static/js/main.432f58f8.chunk.js"
   ]
 }
